@@ -1,0 +1,7 @@
+{
+  "name": "Blessikaa Health & Nutrition",
+  "description": "AI Calorie and Macro Tracker featuring smart food vision logging, dynamic macro editor, streak tracking, permission management, and subscription paywall.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display-serif {
+    font-family: 'DM Serif Display', 'Playfair Display', Georgia, serif;
+  }
+}
+
+@keyframes gentle-bob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.animate-gentle-bob {
+  animation: gentle-bob 2s ease-in-out infinite;
+}
